@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'changeDetection';
+  constructor() {
+    console.log("App Component get Called");
+    
+  }
 }

@@ -1,0 +1,12 @@
+<h1>{{ counter }}</h1>
+<button (click)="OnClick()">Increment</button>
+
+<h1 [ngClass]="'secondary'">Abhishek</h1>
+
+<ul>
+	<li *ngFor="let i of Obj1 | keyvalue">
+		{{i}}
+	</li>
+</ul>
+
+<app-child [count]="counter"></app-child>
